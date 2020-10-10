@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:f="http://java.sun.com/jsf/core"
+      xmlns:h="http://java.sun.com/jsf/html"
+      xmlns:ui="http://java.sun.com/jsf/facelets"
+      xmlns:p="http://primefaces.org/ui"
+      xmlns:pe="http://primefaces.org/ui/extensions">
+<f:view contentType="text/html" locale="es">
+    <pe:head title="AppPruebaIndra">
+        <f:facet name="first">
+            <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+            <meta http-equiv="pragma" content="no-cache"/>
+            <meta http-equiv="cache-control" content="no-cache"/>
+            <meta http-equiv="expires" content="0"/>
+            
+        </f:facet>
+    </pe:head>
+    <h:body>
+		
+		<h:form id="formMenu">  
+		    <p:growl id="messages"/>
+		 
+		    <p:menubar>
+		        <p:submenu label="Estructuración" icon="ui-icon-wrench">
+		        
+		            <p:menuitem value="Registro" url="registros.xhtml" icon="ui-icon-info"/>
+    		       		            
+		        </p:submenu>
+		    </p:menubar>
+		</h:form>
+		
+		<div class="container-fluid">	
+			<div class="row">
+				<div class="col-lg-4">
+					
+				</div>
+				<div class="col-lg-4">
+					<div class="card" style="width: 100%;">
+						<IMG style="width:100%" src="../resources/image/logo_uniajc.jpg" />
+						<div class="container-fluid">
+							<div class="row">
+								<div class="col-lg-12 text-center">
+									<h5 class="card-title">Prueba Indra JAVA</h5> 
+    					  			<p><strong>Desarrollador</strong></p>
+    					  			
+    					  			<p>Luis Felipe Correa Reina</p>
+    					  			</div>
+							</div>	
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-4">
+					
+				</div>
+			</div>
+		</div>
+		
+    </h:body>
+</f:view>
+</html>
